@@ -1,0 +1,114 @@
+#rectanguloBasquet {
+     width: 750px;
+     height: 400px;
+     border: 3px solid #EFF8EC;/*blanco*/
+     background: #856618;/*cancha cafe*/
+     margin:0 auto;
+}
+
+#areaTiroIzq{
+  width: 200px;
+  height: 300px;
+  border: 2px solid #EFF8EC;
+  background: #856618;
+  -moz-border-radius: 0 100px 100px 0;
+  -webkit-border-radius: 0 100px 100px 0;
+  border-radius: 0 100px 100px 0;
+  float: left;
+  margin-top: 50px;
+}
+
+#baseCanastaIzq{
+  width: 100px;
+  height: 160px;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 140px solid #77580C;
+  transform: rotate(90deg);
+  float: left;
+  margin-top: 55px;
+  margin-left: -140px;
+}
+
+#canastaIzq{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #EFF8EC;
+    background: transparent;
+    float: left;
+    margin-top: 155px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+#centroCancha{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #EFF8EC;
+    background: transparent;
+    float: left;
+    margin-top: 155px;
+    margin-left: 75px;
+    /*position: absolute;*/
+}
+
+#lineaCentral{
+    width: 1px;
+    height: 400px;
+    border: 1px solid #EFF8EC;/*blanco*/
+    background: #EFF8EC;/*blanco*/
+    float: left;
+    /*margin-top: 150px;*/
+    margin-left: -53px;
+}
+
+#areaTiroDer{
+  width: 200px;
+  height: 300px;
+  border: 2px solid #EFF8EC;
+  background: #856618;
+  -moz-border-radius: 0 100px 100px 0;
+  -webkit-border-radius: 0 100px 100px 0;
+  border-radius: 0 100px 100px 0;
+  float: right;
+  margin-top: 50px;
+  transform: rotate(180deg);
+}
+
+#baseCanastaDer{
+  width: 100px;
+  height: 160px;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 140px solid #77580C;
+  transform: rotate(270deg);
+  float: right;
+  margin-top: 55px;
+  margin-left: 508px;
+  position: absolute;
+
+}
+
+#canastaDer{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #EFF8EC;
+    background: transparent;
+    float: left;
+    margin-top: 155px;
+    margin-left: 560px;
+    position: absolute;
+}
+
+.canchas{
+  display: none;
+}

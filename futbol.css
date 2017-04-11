@@ -1,0 +1,78 @@
+#rectanguloFutbol {
+     width: 750px;
+     height: 400px;
+     border: 3px solid #EFF8EC;/*blanco*/
+     background: #0F7105;/*cesped verde*/
+     margin:0 auto;
+}
+
+#porteriaIzq{
+    width: 120px;
+    height: 200px;
+    border: 2px solid #EFF8EC;/*blanco*/
+    background: #0F7105;/*cesped verde*/
+    float: left;
+    margin-top: 100px;
+}
+
+#areaChicaIzq{
+    width: 50px;
+    height: 100px;
+    border: 2px solid #EFF8EC;
+    background: #0F7105;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    float: left;
+    margin-top: 150px;
+}
+
+#centro{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #EFF8EC;
+    background: #0F7105;
+    float: left;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#lineaMedia{
+    width: 1px;
+    height: 400px;
+    border: 1px solid #EFF8EC;/*blanco*/
+    background: #EFF8EC;/*blanco*/
+    float: left;
+    /*margin-top: 150px;*/
+    margin-left: -50px;
+}
+
+#areaChicaDer{
+    width: 50px;
+    height: 100px;
+    border: 2px solid #EFF8EC;
+    background: #0F7105;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    float: left;
+    margin-top: 150px;
+    margin-left: 140px;
+    transform: rotate(180deg);
+}
+
+#porteriaDer{
+    width: 120px;
+    height: 200px;
+    border: 2px solid #EFF8EC;/*blanco*/
+    background: #0F7105;/*cesped verde*/
+    float: right;
+    margin-top: 100px;
+}
+
+.canchas{
+  display: none;
+}
